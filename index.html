@@ -8,29 +8,43 @@
 </head>
 <body>
     <div class="main">
-        <form action="">
-            <label for="add-title">Title</label>
-            <input type="text" id="add-title">
-            <label for="add-author">Author</label>
-            <input type="text" id="add-author">
-            <label for="add-pages">Pages</label>
-            <input type="number" min="0" id="add-pages">
-            <label for="has-read">Has read</label>
-            <input type="checkbox" id="has-read">
-            <button type="submit">Add Book</button>
+        <form action="" class="form-nav">
+            <div class="title">
+                <label for="add-title">Title</label>
+                <input type="text" id="add-title">
+            </div>
+            <div class="author">
+                <label for="add-author">Author</label>
+                <input type="text" id="add-author">
+            </div>
+            <div class="pages">
+                <label for="add-pages">Pages</label>
+                <input type="number" min="0" id="add-pages">
+            </div>
+            <div class="read">
+                <label for="has-read">Has read</label>
+                <input type="checkbox" id="has-read">
+            </div>
+            <div class="nav-btns">
+                <button class="nav-btn" type="submit">Add Book</button>
+            </div>
         </form>
         <div class="book-list">
             <div class="book-card">
-                <h3 class="book-title">title</h3>
-                <p class="book-author">author</p>
-                <p class="book-pages">pages</p>
-                <p class="has-read">has read</p>
+                <h3 class="book-title">example title</h3>
+                <p class="book-author"> ex author</p>
+                <p class="book-pages"> expages</p>
+                <p class="has-read">ex has read</p>
+                <button class="read-btn">read?</button>
+                <button class='delete-btn'>delete</button>
             </div>
             <div class="book-card">
-                <h3 class="book-title">title</h3>
-                <p class="book-author">author</p>
-                <p class="book-pages">pages</p>
-                <p class="has-read">has read</p>
+                <h3 class="book-title">ex  title</h3>
+                <p class="book-author">ex author</p>
+                <p class="book-pages">ex pages</p>
+                <p class="has-read">ex has read</p>
+                <button class="read-btn">read?</button>
+                <button class='delete-btn'>delete</button>
             </div>
         </div>
     </div>
